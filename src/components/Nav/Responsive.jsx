@@ -59,23 +59,23 @@ class Responsive extends Component {
               </a>
             </li>
             <li>
-              <a href="events-grid.html" title="">
+              <a href="/ministrues" title="">
+                Our Ministries
+              </a>
+            </li>
+            <li>
+              <a href="/programs" title="">
+                Our Programs
+              </a>
+            </li>
+            <li>
+              <a href="events" title="">
                 Events
               </a>
             </li>
             <li>
-              <a href="gallery.html" title="">
+              <a href="/gallery" title="">
                 Gallery
-              </a>
-            </li>
-            <li>
-              <a href="blog.html" title="">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href="sermon.html" title="">
-                Sermons
               </a>
             </li>
             <li>
@@ -84,7 +84,7 @@ class Responsive extends Component {
               </a>
             </li>
             <li>
-              <a href="contact.html" title="">
+              <a href="/contact" title="">
                 Contact
               </a>
             </li>

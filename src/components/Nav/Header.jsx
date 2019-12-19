@@ -85,6 +85,16 @@ class Header extends Component {
                   </a>
                 </li>
                 <li>
+                  <a href="/ministries" title="">
+                    Our Ministries
+                  </a>
+                </li>
+                <li>
+                  <a href="/programs" title="">
+                    Our Programs
+                  </a>
+                </li>
+                <li>
                   <a href="/events" title="">
                     Events
                   </a>
@@ -92,16 +102,6 @@ class Header extends Component {
                 <li>
                   <a href="/gallery" title="">
                     Gallery
-                  </a>
-                </li>
-                <li>
-                  <a href="/posts" title="">
-                    Blog
-                  </a>
-                </li>
-                <li>
-                  <a href="/word" title="">
-                    Sermons
                   </a>
                 </li>
                 <li>
@@ -115,10 +115,6 @@ class Header extends Component {
                   </a>
                 </li>
               </ul>
-              <form className="header-search">
-                <input type="text" placeholder="Enter Your Search Keyword" />
-                <input type="submit" value="" />
-              </form>
             </div>
           </nav>
         </header>
