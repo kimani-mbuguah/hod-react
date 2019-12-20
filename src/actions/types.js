@@ -1,0 +1,1 @@
+export const SET_MINISTRIES = "SET_MINISTRIES";

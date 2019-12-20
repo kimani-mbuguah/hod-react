@@ -1,7 +1,56 @@
 import React, { Component } from "react";
 
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import compose from "recompose/compose";
+import { withRouter } from "react-router-dom";
+
+import { setMinistries } from "../../../actions/ministriesAction";
+
 class MinistriesList extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      ministries: []
+    };
+  }
+
+  componentDidMount() {
+    this.props.setMinistries();
+  }
+
+  // componentDidUpdate(prevProps) {
+  //   if (prevProps.ministries != this.props.ministries) {
+  //     this.setState({ ministries: this.props.ministries });
+  //   }
+  // }
   render() {
+    const { ministries } = this.props.ministriesData;
+    let ministriesData;
+    if (ministries) {
+      ministriesData = ministries.map((ministry, i) => {
+        return (
+          <div className="col-md-4 column" key={i}>
+            <div className="service-block">
+              <div className="service-image">
+                <img src="images/resource/partnerships.jpg" alt="" />
+
+                <i className="fa fa-codepen"></i>
+              </div>
+
+              <h3>{ministry.name}</h3>
+
+              <p>{ministry.preview}</p>
+
+              <a href="/ministries/children" title="">
+                Read More
+              </a>
+            </div>
+          </div>
+        );
+      });
+    }
+
     return (
       <div>
         <section>
@@ -10,204 +59,8 @@ class MinistriesList extends Component {
               <div className="row">
                 <div className="col-md-12 column">
                   <div className="row">
-                    <div className="service-listing">
-                      <div className="col-md-4 column">
-                        <div className="service-block">
-                          <div className="service-image">
-                            <img
-                              src="images/resource/partnerships.jpg"
-                              alt=""
-                            />
-
-                            <i className="fa fa-codepen"></i>
-                          </div>
-
-                          <h3>Our Partnerships</h3>
-
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
-                          </p>
-
-                          <a href="service-single.html" title="">
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-
-                      <div className="col-md-4 column">
-                        <div className="service-block">
-                          <div className="service-image">
-                            <img src="images/resource/prayers.jpg" alt="" />
-
-                            <i className="fa fa-vine"></i>
-                          </div>
-
-                          <h3>Our Prayers</h3>
-
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
-                          </p>
-
-                          <a href="service-single.html" title="">
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-
-                      <div className="col-md-4 column">
-                        <div className="service-block">
-                          <div className="service-image">
-                            <img src="images/resource/worship.jpg" alt="" />
-
-                            <i className="fa fa-stumbleupon"></i>
-                          </div>
-
-                          <h3>Our Worships</h3>
-
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
-                          </p>
-
-                          <a href="#" title="">
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-
-                      <div className="col-md-4 column">
-                        <div className="service-block">
-                          <div className="service-image">
-                            <img
-                              src="images/resource/partnerships.jpg"
-                              alt=""
-                            />
-
-                            <i className="fa fa-codepen"></i>
-                          </div>
-
-                          <h3>Our Partnerships</h3>
-
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
-                          </p>
-
-                          <a href="service-single.html" title="">
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-
-                      <div className="col-md-4 column">
-                        <div className="service-block">
-                          <div className="service-image">
-                            <img src="images/resource/prayers.jpg" alt="" />
-
-                            <i className="fa fa-vine"></i>
-                          </div>
-
-                          <h3>Our Prayers</h3>
-
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
-                          </p>
-
-                          <a href="service-single.html" title="">
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-
-                      <div className="col-md-4 column">
-                        <div className="service-block">
-                          <div className="service-image">
-                            <img src="images/resource/worship.jpg" alt="" />
-
-                            <i className="fa fa-stumbleupon"></i>
-                          </div>
-
-                          <h3>Our Worships</h3>
-
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
-                          </p>
-
-                          <a href="service-single.html" title="">
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-
-                      <div className="col-md-4 column">
-                        <div className="service-block">
-                          <div className="service-image">
-                            <img
-                              src="images/resource/partnerships.jpg"
-                              alt=""
-                            />
-
-                            <i className="fa fa-codepen"></i>
-                          </div>
-
-                          <h3>Our Partnerships</h3>
-
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
-                          </p>
-
-                          <a href="service-single.html" title="">
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-
-                      <div className="col-md-4 column">
-                        <div className="service-block">
-                          <div className="service-image">
-                            <img src="images/resource/prayers.jpg" alt="" />
-
-                            <i className="fa fa-vine"></i>
-                          </div>
-
-                          <h3>Our Prayers</h3>
-
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
-                          </p>
-
-                          <a href="service-single.html" title="">
-                            Read More
-                          </a>
-                        </div>
-                      </div>
-
-                      <div className="col-md-4 column">
-                        <div className="service-block">
-                          <div className="service-image">
-                            <img src="images/resource/worship.jpg" alt="" />
-
-                            <i className="fa fa-stumbleupon"></i>
-                          </div>
-
-                          <h3>Our Worships</h3>
-
-                          <p>
-                            Lorem Ipsum is simply dummy text of the printing and
-                            typesetting industry.
-                          </p>
-
-                          <a href="service-single.html" title="">
-                            Read More
-                          </a>
-                        </div>
-                      </div>
+                    <div className="service-listing center">
+                      {ministriesData}
                     </div>
                   </div>
                 </div>
@@ -220,4 +73,15 @@ class MinistriesList extends Component {
   }
 }
 
-export default MinistriesList;
+MinistriesList.propTypes = {
+  ministriesData: PropTypes.object,
+  setMinistries: PropTypes.func
+};
+
+const mapStateToProps = state => ({
+  ministriesData: state.ministriesData
+});
+
+const enhance = compose(connect(mapStateToProps, { setMinistries }));
+
+export default enhance(withRouter(MinistriesList));
