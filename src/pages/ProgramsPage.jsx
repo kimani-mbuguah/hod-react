@@ -40,26 +40,22 @@ class ProgramsPage extends Component {
         </div>
 
         <section>
-          <div class="block">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 column">
-                  <div class="remove-ext">
-                    <div class="blog-post">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="image">
+          <div className="block">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12 column">
+                  <div className="remove-ext">
+                    <div className="blog-post">
+                      <div className="row">
+                        <div className="col-md-5">
+                          <div className="image">
                             <img src="images/resource/blog1.jpg" alt="" />
                           </div>
                         </div>
 
-                        <div class="col-md-7">
-                          <div class="blog-detail">
-                            <h3>
-                              <a href="blog-single.html" title="">
-                                Why Donate Us
-                              </a>
-                            </h3>
+                        <div className="col-md-7">
+                          <div className="blog-detail">
+                            <h3>SAMPLE HEADING</h3>
 
                             <p>
                               Aenen leo vene quam. Pellntes quie venenatis
@@ -72,15 +68,11 @@ class ProgramsPage extends Component {
                       </div>
                     </div>
 
-                    <div class="blog-post">
-                      <div class="row">
-                        <div class="col-md-7">
-                          <div class="blog-detail">
-                            <h3>
-                              <a href="blog-single.html" title="">
-                                Why Donate Us
-                              </a>
-                            </h3>
+                    <div className="blog-post">
+                      <div className="row">
+                        <div className="col-md-7">
+                          <div className="blog-detail">
+                            <h3>SAMPLE HEADING</h3>
 
                             <p>
                               Aenen leo vene quam. Pellntes quie venenatis
@@ -90,29 +82,25 @@ class ProgramsPage extends Component {
                             </p>
                           </div>
                         </div>
-                        <div class="col-md-5">
-                          <div class="image">
+                        <div className="col-md-5">
+                          <div className="image">
                             <img src="images/resource/blog1.jpg" alt="" />
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <div class="blog-post">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="image">
+                    <div className="blog-post">
+                      <div className="row">
+                        <div className="col-md-5">
+                          <div className="image">
                             <img src="images/resource/blog2.jpg" alt="" />
                           </div>
                         </div>
 
-                        <div class="col-md-7">
-                          <div class="blog-detail">
-                            <h3>
-                              <a href="blog-single.html" title="">
-                                Stop Waiting For Heaven
-                              </a>
-                            </h3>
+                        <div className="col-md-7">
+                          <div className="blog-detail">
+                            <h3>SAMPLE HEADING</h3>
 
                             <p>
                               Aenen leo vene quam. Pellntes quie venenatis
@@ -125,15 +113,11 @@ class ProgramsPage extends Component {
                       </div>
                     </div>
 
-                    <div class="blog-post">
-                      <div class="row">
-                        <div class="col-md-7">
-                          <div class="blog-detail">
-                            <h3>
-                              <a href="blog-single.html" title="">
-                                How To Get More From Your Group
-                              </a>
-                            </h3>
+                    <div className="blog-post">
+                      <div className="row">
+                        <div className="col-md-7">
+                          <div className="blog-detail">
+                            <h3>SAMPLE HEADING</h3>
 
                             <p>
                               Aenen leo vene quam. Pellntes quie venenatis
@@ -144,29 +128,25 @@ class ProgramsPage extends Component {
                           </div>
                         </div>
 
-                        <div class="col-md-5">
-                          <div class="image">
+                        <div className="col-md-5">
+                          <div className="image">
                             <img src="images/resource/blog1.jpg" alt="" />
                           </div>
                         </div>
                       </div>
                     </div>
 
-                    <div class="blog-post">
-                      <div class="row">
-                        <div class="col-md-5">
-                          <div class="image">
+                    <div className="blog-post">
+                      <div className="row">
+                        <div className="col-md-5">
+                          <div className="image">
                             <img src="images/resource/blog4.jpg" alt="" />
                           </div>
                         </div>
 
-                        <div class="col-md-7">
-                          <div class="blog-detail">
-                            <h3>
-                              <a href="blog-single.html" title="">
-                                Week 5: What Will Heaven Be Like?
-                              </a>
-                            </h3>
+                        <div className="col-md-7">
+                          <div className="blog-detail">
+                            <h3>SAMPLE HEADING</h3>
 
                             <p>
                               Aenen leo vene quam. Pellntes quie venenatis

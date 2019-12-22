@@ -13,7 +13,7 @@ class Footer extends Component {
 
             <div className="container">
               <div className="row">
-                <div className="col-md-4">
+                <div className="col-md-6">
                   <div className="widget">
                     <div className="about">
                       <img src="images/logo.png" alt="" />
@@ -79,7 +79,7 @@ class Footer extends Component {
                   </div>
                 </div>
 
-                <div className="col-md-4">
+                <div className="col-md-6">
                   <div className="widget">
                     <div className="widget-title">
                       <h4>Quick Message</h4>
@@ -124,60 +124,6 @@ class Footer extends Component {
                           value="SUBMIT"
                         />
                       </form>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-md-4">
-                  <div className="widget">
-                    <div className="widget-title">
-                      <h4>Recent Blog</h4>
-                    </div>
-
-                    <div className="remove-ext">
-                      <div className="widget-blog">
-                        <div className="widget-blog-img">
-                          <img src="images/resource/widget-blog.jpg" alt="" />
-                        </div>
-
-                        <h6>
-                          <a href="blog-single.html" title="">
-                            {" "}
-                            Consectetur Adipisicing.
-                          </a>
-                        </h6>
-
-                        <p>
-                          Homemade cream cheese mints These are
-                          amazing!Christmas!!- must try!
-                        </p>
-
-                        <span>
-                          <i className="fa fa-calendar-o"></i> November 01, 2013
-                        </span>
-                      </div>
-
-                      <div className="widget-blog">
-                        <div className="widget-blog-img">
-                          <img src="images/resource/widget-blog2.jpg" alt="" />
-                        </div>
-
-                        <h6>
-                          <a href="blog-single.html" title="">
-                            {" "}
-                            Consectetur Adipisicing.
-                          </a>
-                        </h6>
-
-                        <p>
-                          Homemade cream cheese mints These are
-                          amazing!Christmas!!- must try!
-                        </p>
-
-                        <span>
-                          <i className="fa fa-calendar-o"></i> November 01, 2013
-                        </span>
-                      </div>
                     </div>
                   </div>
                 </div>

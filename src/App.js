@@ -5,6 +5,11 @@ import LandingPage from "./pages/LandingPage";
 import MinistriesListPage from "./pages/MinistriesListPage";
 import ChildrenMinistryPage from "./pages/ChildrenMinistryPage";
 import ProgramsPage from "./pages/ProgramsPage";
+import EventsPage from "./pages/EventsPage";
+import EventSingePage from "./pages/EventSinglePage";
+import GalleryPage from "./pages/GalleryPage";
+import AboutPage from "./pages/AboutPage";
+import ContactPage from "./pages/ContactPage";
 
 class App extends Component {
   render() {
@@ -14,6 +19,11 @@ class App extends Component {
         <Route exact path="/ministries" component={MinistriesListPage} />
         <Route exact path="/children" component={ChildrenMinistryPage} />
         <Route exact path="/programs" component={ProgramsPage} />
+        <Route exact path="/events" component={EventsPage} />
+        <Route exact path="/event-single" component={EventSingePage} />
+        <Route exact path="/gallery" component={GalleryPage} />
+        <Route exact path="/about" component={AboutPage} />
+        <Route exact path="/contact" component={ContactPage} />
       </div>
     );
   }

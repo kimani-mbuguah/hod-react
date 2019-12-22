@@ -38,15 +38,15 @@ class SingleMinistryPage extends Component {
           </div>
         </div>
         <section>
-          <div class="block">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 column">
-                  <div class="service-block">
-                    <div class="service-image">
+          <div className="block">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12 column">
+                  <div className="service-block">
+                    <div className="service-image">
                       <img src="images/resource/partnerships.jpg" alt="" />
 
-                      <i class="fa fa-codepen"></i>
+                      <i className="fa fa-codepen"></i>
                     </div>
 
                     <h3>Children Ministry</h3>
@@ -73,13 +73,13 @@ class SingleMinistryPage extends Component {
 
                     <blockquote>
                       <div
-                        class="parallax"
+                        className="parallax"
                         style={{ background: "url(images/parallax2.jpg)" }}
                       ></div>
-                      <i class="fa fa-quote-left"></i>Voluptate illum dolore ita
-                      ipsum, quid deserunt singulis, labore admodum ita multos
-                      malis ea nam nam tamen fore amet.
-                      <i class="fa fa-quote-right"></i>
+                      <i className="fa fa-quote-left"></i>Voluptate illum dolore
+                      ita ipsum, quid deserunt singulis, labore admodum ita
+                      multos malis ea nam nam tamen fore amet.
+                      <i className="fa fa-quote-right"></i>
                     </blockquote>
 
                     <p>
