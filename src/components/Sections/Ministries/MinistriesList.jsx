@@ -42,7 +42,7 @@ class MinistriesList extends Component {
 
               <p>{ministry.preview}</p>
 
-              <a href="/ministries/children" title="">
+              <a href="/children" title="">
                 Read More
               </a>
             </div>
