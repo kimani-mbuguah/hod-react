@@ -55,13 +55,13 @@ class ProgramsPage extends Component {
 
                         <div className="col-md-7">
                           <div className="blog-detail">
-                            <h3>SAMPLE HEADING</h3>
+                            <h3>LIFE GROUPS</h3>
 
                             <p>
-                              Aenen leo vene quam. Pellntes quie venenatis
-                              vestib citur onecs.Suspendisse velit ante, aliquet
-                              vel adipi cing auctor, tincidunt a diam. Lorem
-                              ipsum dolor sit .
+                              The House of Destiny church disciples in various
+                              locations in Kerugoya. The life groups are held in
+                              different days of the week according to each
+                              location. They are open to non-members as well.
                             </p>
                           </div>
                         </div>
@@ -72,13 +72,14 @@ class ProgramsPage extends Component {
                       <div className="row">
                         <div className="col-md-7">
                           <div className="blog-detail">
-                            <h3>SAMPLE HEADING</h3>
+                            <h3>PRAYER FEST</h3>
 
                             <p>
-                              Aenen leo vene quam. Pellntes quie venenatis
-                              vestib citur onecs.Suspendisse velit ante, aliquet
-                              vel adipi cing auctor, tincidunt a diam. Lorem
-                              ipsum dolor sit .
+                              Every last Friday of the month, we welcome you to
+                              a night of prayers from 7pm to 10pm. The service
+                              is a forum to encounter the Holy Spirit as you
+                              take your petitions to God. You are welcome to
+                              join us as you expect from the Lord.
                             </p>
                           </div>
                         </div>
@@ -100,13 +101,16 @@ class ProgramsPage extends Component {
 
                         <div className="col-md-7">
                           <div className="blog-detail">
-                            <h3>SAMPLE HEADING</h3>
+                            <h3>MIZIZI</h3>
 
                             <p>
-                              Aenen leo vene quam. Pellntes quie venenatis
-                              vestib citur onecs.Suspendisse velit ante, aliquet
-                              vel adipi cing auctor, tincidunt a diam. Lorem
-                              ipsum dolor sit .
+                              The 10-week program is mostly recommended for new
+                              believers. As the name indicates, it gives
+                              ‘spiritual roots’ as participants embark on a
+                              journey to having an intimate relationship with
+                              God. The program has been introduced in various
+                              churches across Kenya as well as other
+                              institutions such as Kerugoya Prison.
                             </p>
                           </div>
                         </div>
@@ -117,13 +121,13 @@ class ProgramsPage extends Component {
                       <div className="row">
                         <div className="col-md-7">
                           <div className="blog-detail">
-                            <h3>SAMPLE HEADING</h3>
+                            <h3>HOSPITAL</h3>
 
                             <p>
-                              Aenen leo vene quam. Pellntes quie venenatis
-                              vestib citur onecs.Suspendisse velit ante, aliquet
-                              vel adipi cing auctor, tincidunt a diam. Lorem
-                              ipsum dolor sit .
+                              We minister at Kerugoya Medical Hospital and
+                              Kimathi Medical Hospital at least three times a
+                              day. We pray with patients as we comfort and give
+                              them hope and encouragement in our Lord Jesus.
                             </p>
                           </div>
                         </div>

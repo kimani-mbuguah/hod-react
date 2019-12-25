@@ -43,27 +43,16 @@ class AboutPage extends Component {
               <div className="row">
                 <div className="col-md-6 column">
                   <div className="simple-text">
-                    <h3>WHO WE ARE AND WHAT IS OUR MISSION?</h3>
+                    <h3>MORE ABOUT US</h3>
 
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elt.
-                      Aioielit lorem, in lacinia libero lacina ac. Pellente sque
-                      vulputat eusmod, nulla dolor placerat eiest, et adipiscing
-                      urn aom. Aioielit lorem, in lacinia libero lacina ac.
-                      Pellente sque lacinia libero lacina ac. Pellente sque
-                      vulputa teuismod, nulla dolor placerat eiest, et
-                      adipiscing urna metuis. Moli viourem sit amet, Lorem ipsum
-                      dolor sit amet, elt.{" "}
-                      <a href="#" title="">
-                        Aioielit lorem
-                      </a>
-                      , in lacinia libero lacina ac. Pellente sque vulput ate
-                      uismod.
+                      Located along the Kutus – Kerugoya highway next to Facing
+                      Mt. Kenya Boys, the Sunday Service starts with a prayer
+                      session from 9 30am to 10am. It is followed by the main
+                      service until 12 noon. You are welcome to come pray,
+                      praise, worship and hear the word of God as you experience
+                      the love from our church community.
                     </p>
-
-                    <a className="button" href="#" title="">
-                      DONATE NOW
-                    </a>
                   </div>
                 </div>
 
