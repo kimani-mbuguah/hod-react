@@ -40,7 +40,7 @@ class Slider extends Component {
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  Pray For Yourself <span>Be Peacefull</span>
+                  Welcome To The <span>House Of Destiny Church</span>
                 </div>
 
                 <div
@@ -62,55 +62,7 @@ class Slider extends Component {
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  Under The Guidelines Of Pope Francis
-                </div>
-
-                <a
-                  href="#"
-                  title=""
-                  className="tp-caption slide-button colored-box tp-resizeme rs-parallaxlevel-2"
-                  data-x="['left','left','left','left']"
-                  data-hoffset="['0','0','0','0']"
-                  data-y="['280','280','280','280']"
-                  data-voffset="['0','0','0','0']"
-                  data-fontsize="['13','13','13','13']"
-                  data-lineheight="['15','15','13','13']"
-                  data-width="['none','none','none','400']"
-                  data-height="none"
-                  data-whitespace="['nowrap','nowrap','nowrap','normal']"
-                  data-transform_idle="o:1;"
-                  data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:2000;e:Back.easeInOut;"
-                  data-transform_out="y:bottom(R);s:2000;e:Back.easeIn;s:1000;e:Back.easeIn;"
-                  data-start="2100"
-                  data-splitin="none"
-                  data-splitout="none"
-                  data-responsive_offset="on"
-                >
-                  Read More
-                </a>
-
-                <div
-                  className="tp-caption tp-resizeme rs-parallaxlevel-2"
-                  data-x="['right','right','right','right']"
-                  data-hoffset="['0','0','0','0']"
-                  data-y="['bottom','bottom','bottom','bottom']"
-                  data-voffset="['0','0','0','0']"
-                  data-transform_idle="o:1;"
-                  data-transform_in="y:bottom(R);z:0;rX:90;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:2000;e:Elastic.easeInOut;"
-                  data-transform_out="x:right(R);s:2000;e:Back.easeIn;s:1000;e:Back.easeIn;"
-                  data-start="2300"
-                  data-splitin="none"
-                  data-splitout="none"
-                  data-responsive_offset="on"
-                  data-no-retina
-                >
-                  <img
-                    src="images/resource/slide9-man.png"
-                    alt=""
-                    data-ww="['332px','332px','200px','170px']"
-                    data-hh="['412px','412px','251px','213px']"
-                    data-no-retina
-                  />
+                  Connecting People To Their Destiny In Christ
                 </div>
               </li>
 

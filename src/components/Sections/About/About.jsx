@@ -8,10 +8,8 @@ class About extends Component {
           <div className="container">
             <div className="row">
               <div className="title2">
-                <span>Pellent Esque Tellus</span>
-
                 <h2>
-                  WANT <span>TO KNOW ABOUT US</span>
+                  ABOUT <span>US</span>
                 </h2>
               </div>
 
@@ -22,42 +20,36 @@ class About extends Component {
                   </h4>
 
                   <p>
-                    Aenean leo vene quam. Pellntes ique ornare sem eiusmodte
-                    venenatis. Pellntes ique ornew vestibum. Cras mattis citur
-                    exquisitely far then far purus. Duis sed odio sit amet
-                    nibhwe vulputate cursus a sit amet mauris. Morbi accumsan
-                    ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare
-                    odio. Sed non mauris vitae erat consequat auctor.
+                    Since its inception in 2013, the House of Destiny Ministries
+                    has been a vibrant home for its members. At the heart of the
+                    ministry is a love for people which is embodied in its
+                    vision bearer, Pastor Frank Mbugua who has over 20 years’
+                    experience as a pastor. Together with his wife, Pastor Carol
+                    Mbugua, they are dedicated to connecting people to their
+                    Destiny in Christ. Located along the Kutus – Kerugoya
+                    highway next to Facing Mt. Kenya Boys, the Sunday Service
+                    starts with a prayer session from 9 30am to 10am. It is
+                    followed by the main service until 12 noon. You are welcome
+                    to come pray, praise, worship and hear the word of God as
+                    you experience the love from our church community.
                   </p>
-
-                  <ul>
-                    <li>
-                      <i className="fa fa-check"></i> Cras dignissim lacus eget
-                      urna fringilla placerat.
-                    </li>
-
-                    <li>
-                      <i className="fa fa-check"></i> Interdum et malesuada
-                      fames ac ante ipsum primis in faucibus.
-                    </li>
-                  </ul>
 
                   <ul className="nav nav-tabs" id="myTab">
                     <li className="col-md-4 active">
                       <a data-toggle="tab" href="#image1">
-                        <img src="images/resource/about1.jpg" alt="" />
+                        <img src="images/resource/bg1.jpg" alt="" />
                       </a>
                     </li>
 
                     <li className="col-md-4">
                       <a data-toggle="tab" href="#image2">
-                        <img src="images/resource/about2.jpg" alt="" />
+                        <img src="images/resource/bg2-569x345.jpg" alt="" />
                       </a>
                     </li>
 
                     <li className="col-md-4">
                       <a data-toggle="tab" href="#image3">
-                        <img src="images/resource/about3.jpg" alt="" />
+                        <img src="images/resource/bg3-569x345.jpg" alt="" />
                       </a>
                     </li>
                   </ul>
@@ -66,15 +58,15 @@ class About extends Component {
                 <div className="col-md-6 column">
                   <div className="tab-content" id="myTabContent">
                     <div id="image1" className="tab-pane fade in active">
-                      <img src="images/resource/about1-big.jpg" alt="" />
+                      <img src="images/resource/bg1.jpg" alt="" />
                     </div>
 
                     <div id="image2" className="tab-pane fade">
-                      <img src="images/resource/about2-big.jpg" alt="" />
+                      <img src="images/resource/bg2-569x345.jpg" alt="" />
                     </div>
 
                     <div id="image3" className="tab-pane fade">
-                      <img src="images/resource/about3-big.jpg" alt="" />
+                      <img src="images/resource/bg3-569x345.jpg" alt="" />
                     </div>
                   </div>
                 </div>
