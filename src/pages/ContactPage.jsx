@@ -44,7 +44,14 @@ class ContactPage extends Component {
               <div className="row">
                 <div className="col-md-12">
                   <div className="map">
-                    <iframe src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=uk&amp;aq=&amp;sll=18.312811,-4.306641&amp;sspn=46.292419,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=52.352119,-2.647705&amp;spn=0.685471,1.352692&amp;t=p&amp;z=10&amp;output=embed"></iframe>
+                    <iframe
+                      id="gmap_canvas"
+                      src="https://maps.google.com/maps?q=the%20house%20of%20destiny&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                      frameborder="0"
+                      scrolling="no"
+                      marginheight="0"
+                      marginwidth="0"
+                    ></iframe>
                   </div>
                 </div>
               </div>
@@ -163,25 +170,25 @@ class ContactPage extends Component {
                     <div className="col-md-3">
                       <div className="info-block">
                         <i className="fa fa-home"></i>
-                        <p>310 South Jurack Avenue</p>
+                        <p>Kerugoya-Kutus Road</p>
                       </div>
                     </div>
                     <div className="col-md-3">
                       <div className="info-block">
                         <i className="fa fa-info"></i>
-                        <p>www.themes.webinane.com</p>
+                        <p>http://www.houseofdestiny.or.ke</p>
                       </div>
                     </div>
                     <div className="col-md-3">
                       <div className="info-block">
                         <i className="fa fa-envelope-o"></i>
-                        <p>youremail@yourdomain.com</p>
+                        <p>hello@houseofdestiny.or.ke</p>
                       </div>
                     </div>
                     <div className="col-md-3">
                       <div className="info-block">
                         <i className="fa fa-mobile"></i>
-                        <p>(000) +123 123 1235</p>
+                        <p>+254 705 000 050</p>
                       </div>
                     </div>
                   </div>
