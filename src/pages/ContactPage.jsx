@@ -69,20 +69,16 @@ class ContactPage extends Component {
                       <h4>CONTACT INFORMATION</h4>
                       <div className="space"></div>
                       <p>
-                        Geoffrey rush four seasons in one day, the hawks etihad
-                        stadium movida formula onegrand rix ball, chopper read
-                        the espy victory vs heart lygon street spruikers cumulus
-                        inc, citylink spiegeltent bill clinton ate two bowls the
-                        emerald peacock collingwood ferals, Rod aver dumplings
-                        dandenong.
+                        There are many ways for you to connect with us by
+                        contacting our ministry. Reach out to us by phone, email
+                        or through social media and let us know how we can help.
                       </p>
                       <div className="space"></div>
                       <p>
-                        The emerald peacock empire of the sun, etihad stadium
-                        movida swanston spiegeltent fr on bogans, dandenong
-                        neatly trimmed moustaches hu tong dumplings rooftop bars
-                        chapel street, east brunswick club mamasita the G’ kylie
-                        minogue trams.
+                        To contact The House of Destiny Church by email, fill
+                        out the form below with your question or comment and
+                        submit. Your email will be forwarded to the appropriate
+                        department for a response. Thank you for contacting us!
                       </p>
                       <div className="space"></div>
                       <ul className="social-media">

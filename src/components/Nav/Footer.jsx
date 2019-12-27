@@ -18,12 +18,9 @@ class Footer extends Component {
                     <div className="about">
                       <img src="images/logo.png" alt="" />
 
-                      <span>We Give Best Services</span>
+                      <span>The House Of Destiny Church</span>
 
-                      <p>
-                        Homemade cream cheese mints These are amazing! Made them
-                        last Christmas!!- must try!
-                      </p>
+                      <p>Connecting People To Their Destiny In Christ</p>
 
                       <div className="contact">
                         <ul>
@@ -31,21 +28,21 @@ class Footer extends Component {
                             <span>
                               <i className="fa fa-phone"></i>Phone :
                             </span>{" "}
-                            ( +185 557 89 89 ) ( +185 557 89 89 )
+                            ( +254 704 000 050 )
                           </li>
 
                           <li>
                             <span>
                               <i className="fa fa-envelope"></i>Email:
                             </span>{" "}
-                            Contactchurch@simple.com
+                            hello@houseofdestiny.or.ke
                           </li>
 
                           <li>
                             <span>
                               <i className="fa fa-home"></i>Address:
                             </span>{" "}
-                            Home Fronts 27# street 7 Road Green
+                            Kerugoya, Kenya
                           </li>
                         </ul>
                       </div>
@@ -90,7 +87,7 @@ class Footer extends Component {
 
                       <form
                         method="post"
-                        action="https://html.webinane.com/deeds/contact.php"
+                        action="#"
                         name="contactform"
                         id="contactform"
                       >
