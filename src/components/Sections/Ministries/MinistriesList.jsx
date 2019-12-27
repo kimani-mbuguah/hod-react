@@ -6,6 +6,7 @@ import compose from "recompose/compose";
 import { withRouter } from "react-router-dom";
 
 import { setMinistries } from "../../../actions/ministriesAction";
+import { viewMinistry } from "../../../actions/ministriesAction";
 
 class MinistriesList extends Component {
   constructor(props) {
@@ -42,9 +43,14 @@ class MinistriesList extends Component {
 
               <p>{ministry.preview}</p>
 
-              <a href="/children" title="">
+              <button
+                className="button center"
+                onClick={() => {
+                  this.props.viewMinistry(ministry.name, this.props.history);
+                }}
+              >
                 Read More
-              </a>
+              </button>
             </div>
           </div>
         );
@@ -75,13 +81,16 @@ class MinistriesList extends Component {
 
 MinistriesList.propTypes = {
   ministriesData: PropTypes.object,
-  setMinistries: PropTypes.func
+  setMinistries: PropTypes.func,
+  viewMinistry: PropTypes.func
 };
 
 const mapStateToProps = state => ({
   ministriesData: state.ministriesData
 });
 
-const enhance = compose(connect(mapStateToProps, { setMinistries }));
+const enhance = compose(
+  connect(mapStateToProps, { setMinistries, viewMinistry })
+);
 
 export default enhance(withRouter(MinistriesList));

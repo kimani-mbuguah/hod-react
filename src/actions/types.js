@@ -1,1 +1,2 @@
 export const SET_MINISTRIES = "SET_MINISTRIES";
+export const SET_MINISTRY = "SET_MINISTRY";

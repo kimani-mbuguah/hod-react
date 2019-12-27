@@ -1,7 +1,8 @@
-import { SET_MINISTRIES } from "../actions/types";
+import { SET_MINISTRIES, SET_MINISTRY } from "../actions/types";
 
 const initialState = {
-  ministries: null
+  ministries: null,
+  ministry: null
 };
 
 export default function(state = initialState, action) {
@@ -10,6 +11,12 @@ export default function(state = initialState, action) {
       return {
         ...state,
         ministries: action.payload
+      };
+
+    case SET_MINISTRY:
+      return {
+        ...state,
+        ministry: action.payload
       };
 
     default:
