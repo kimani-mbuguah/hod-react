@@ -100,7 +100,7 @@ class Slider extends Component {
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  Save Our Future <span>HELP KIDS</span>
+                  Join Us For <span>The Main Service</span>
                 </div>
 
                 <div
@@ -122,7 +122,7 @@ class Slider extends Component {
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  These poor kids need your special attention.
+                  Every Sunday
                 </div>
 
                 <div
@@ -144,32 +144,8 @@ class Slider extends Component {
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  Step ahead to save this talent.
+                  From 10:00 AM
                 </div>
-
-                <a
-                  href="#"
-                  title=""
-                  className="tp-caption dark-bg slide-button slide-button2 tp-resizeme rs-parallaxlevel-2"
-                  data-x="['left','left','left','left']"
-                  data-hoffset="['0','0','0','0']"
-                  data-y="['300','300','300','300']"
-                  data-voffset="['0','0','0','0']"
-                  data-fontsize="['14','14','13','13']"
-                  data-lineheight="['15','15','13','13']"
-                  data-width="['none','none','none','400']"
-                  data-height="none"
-                  data-whitespace="['nowrap','nowrap','nowrap','normal']"
-                  data-transform_idle="o:1;"
-                  data-transform_in="z:0;rX:-45;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:2000;e:Back.easeInOut;"
-                  data-transform_out="x:left(R);s:2000;e:Back.easeIn;s:1000;e:Back.easeIn;"
-                  data-start="2300"
-                  data-splitin="none"
-                  data-splitout="none"
-                  data-responsive_offset="on"
-                >
-                  <i className="fa tp-shape fa-shopping-cart"></i>Donate Now
-                </a>
               </li>
 
               <li
@@ -209,7 +185,7 @@ class Slider extends Component {
                   data-responsive_offset="on"
                   data-elementdelay="0.05"
                 >
-                  Get Everyone Forgivenss Today
+                  Join Us For Youth Connect
                 </div>
 
                 <div
@@ -231,7 +207,7 @@ class Slider extends Component {
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  Powerfully Responsive
+                  Every Thursday
                 </div>
 
                 <div
@@ -253,32 +229,8 @@ class Slider extends Component {
                   data-splitout="none"
                   data-responsive_offset="on"
                 >
-                  Forgiveness is the most churchelly
+                  From 6:30 P.M
                 </div>
-
-                <a
-                  href="#"
-                  title=""
-                  className="tp-caption dark-bg slide-button slide-button2 tp-resizeme rs-parallaxlevel-2"
-                  data-x="['500','500','500','500']"
-                  data-hoffset="['0','0','0','0']"
-                  data-y="['300','300','300','300']"
-                  data-voffset="['0','0','0','0']"
-                  data-fontsize="['14','14','13','13']"
-                  data-lineheight="['15','15','13','13']"
-                  data-width="['none','none','none','400']"
-                  data-height="none"
-                  data-whitespace="['nowrap','nowrap','nowrap','normal']"
-                  data-transform_idle="o:1;"
-                  data-transform_in="z:0;rX:-45;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:2000;e:Back.easeInOut;"
-                  data-transform_out="x:right(R);s:2000;e:Back.easeIn;s:1000;e:Back.easeIn;"
-                  data-start="2300"
-                  data-splitin="none"
-                  data-splitout="none"
-                  data-responsive_offset="on"
-                >
-                  <i className="fa tp-shape fa-shopping-cart"></i>Donate Now
-                </a>
               </li>
             </ul>
           </div>

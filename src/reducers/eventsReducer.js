@@ -1,7 +1,8 @@
-import { SET_EVENTS } from "../actions/types";
+import { SET_EVENTS, SET_EVENT } from "../actions/types";
 
 const initialState = {
-  events: null
+  events: null,
+  event: null
 };
 
 export default function(state = initialState, action) {
@@ -10,6 +11,12 @@ export default function(state = initialState, action) {
       return {
         ...state,
         events: action.payload
+      };
+
+    case SET_EVENT:
+      return {
+        ...state,
+        event: action.payload
       };
 
     default:

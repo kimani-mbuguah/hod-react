@@ -1,9 +1,9 @@
-import { GET_EVENTS, SET_EVENTS } from "./types";
+import { SET_EVENT, SET_EVENTS } from "./types";
 const axios = require("axios");
 
 //GET EVENTS FROM BACKEND SERVER
 export const getEvents = history => dispatch => {
-  return axios
+  axios
     .get("http://localhost:5002/events/get")
     .then(res => {
       if (res.status === 200) {
@@ -18,4 +18,22 @@ export const getEvents = history => dispatch => {
     .catch(err => {
       console.log(err);
     });
+};
+
+export const viewEvent = (name, history) => dispatch => {
+  axios.get("http://localhost:5002/events/get").then(res => {
+    dispatch({
+      type: SET_EVENT,
+      payload: search(name, res.data)
+    });
+    history.push("/event-single");
+  });
+};
+
+const search = (nameKey, myArray) => {
+  for (var i = 0; i < myArray.length; i++) {
+    if (myArray[i].name === nameKey) {
+      return myArray[i];
+    }
+  }
 };

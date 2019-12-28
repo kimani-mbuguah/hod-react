@@ -9,9 +9,9 @@ class FooterBottom extends Component {
             <p>
               ©2019{" "}
               <a href="https://houseofdestiny.or.ke" title="">
-                House Of Destiny
+                The House Of Destiny ||
               </a>{" "}
-              Design by{" "}
+              Designed and Developed by{" "}
               <a href="https://iamkim.me" title="">
                 Kim
               </a>

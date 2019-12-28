@@ -6,6 +6,8 @@ import compose from "recompose/compose";
 import { withRouter } from "react-router-dom";
 
 import { getEvents } from "../actions/eventsActions";
+import { viewEvent } from "../actions/eventsActions";
+
 import Header from "../components/Nav/Header";
 import Responsive from "../components/Nav/Responsive";
 import Footer from "../components/Nav/Footer";
@@ -49,16 +51,20 @@ class EventsPage extends Component {
                   </ul>
                 </div>
 
-                <h3>
-                  <a href="/event-single" title="">
-                    {event.title}
-                  </a>
-                </h3>
+                <h3>{event.title}</h3>
 
                 <span>
                   <i className="fa fa-map-marker"></i> The House of Destiny
                   Church Kerugoya
                 </span>
+                <button
+                  className="button center"
+                  onClick={() => {
+                    this.props.viewEvent(event.name, this.props.history);
+                  }}
+                >
+                  Read More
+                </button>
               </div>
             </div>
           </div>
@@ -153,13 +159,14 @@ class EventsPage extends Component {
 
 EventsPage.propTypes = {
   eventsData: PropTypes.object,
-  getEvents: PropTypes.func
+  getEvents: PropTypes.func,
+  viewEvent: PropTypes.func
 };
 
 const mapStateToProps = state => ({
   eventsData: state.eventsData
 });
 
-const enhance = compose(connect(mapStateToProps, { getEvents }));
+const enhance = compose(connect(mapStateToProps, { getEvents, viewEvent }));
 
 export default enhance(withRouter(EventsPage));

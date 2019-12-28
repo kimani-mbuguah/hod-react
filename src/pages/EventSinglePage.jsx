@@ -1,12 +1,24 @@
 import React, { Component } from "react";
 
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import compose from "recompose/compose";
+import { withRouter, Redirect } from "react-router-dom";
+
 import Header from "../components/Nav/Header";
 import Responsive from "../components/Nav/Responsive";
 import Footer from "../components/Nav/Footer";
 import FooterBottom from "../components/Nav/FooterBottom";
 
 class EventSinglePage extends Component {
+  constructor(props) {
+    super(props);
+  }
   render() {
+    const { event } = this.props.eventsData;
+    if (!event) {
+      return <Redirect to="/events" />;
+    }
     return (
       <div>
         <Header />
@@ -19,7 +31,7 @@ class EventSinglePage extends Component {
 
           <div className="container">
             <h1>
-              EVENTS <span>SINGLE</span>
+              <span>{event.title}</span>
             </h1>
 
             <ul>
@@ -45,12 +57,10 @@ class EventSinglePage extends Component {
                   <div className="single-page">
                     <img src="images/resource/sermon-single.jpg" alt="" />
 
-                    <h2>Francis Chan - Passion 2013 - God Is Faithful</h2>
-
                     <div className="meta">
                       <ul>
                         <li>
-                          <i className="fa fa-calendar-o"></i> November 01, 2013
+                          <i className="fa fa-calendar-o"></i> {event.date}
                         </li>
                       </ul>
                     </div>
@@ -58,51 +68,33 @@ class EventSinglePage extends Component {
                     <div className="event-info">
                       <div className="col-md-6">
                         <div className="map">
-                          <iframe src="https://www.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=uk&amp;aq=&amp;sll=18.312811,-4.306641&amp;sspn=46.292419,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=United+Kingdom&amp;ll=52.352119,-2.647705&amp;spn=0.685471,1.352692&amp;t=p&amp;z=10&amp;output=embed"></iframe>
+                          <iframe
+                            id="gmap_canvas"
+                            src="https://maps.google.com/maps?q=the%20house%20of%20destiny&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                            frameborder="0"
+                            scrolling="no"
+                            marginheight="0"
+                            marginwidth="0"
+                          ></iframe>
                         </div>
                       </div>
 
                       <div className="col-md-6">
                         <ul>
                           <li>
-                            <i className="fa fa-map-marker"></i> South
-                            Lanarkshire, UK
+                            <i className="fa fa-map-marker"></i> The House of
+                            Destiny Church
                           </li>
 
                           <li>
-                            <i className="fa fa-heart"></i> 24 Likes
-                          </li>
-
-                          <li>
-                            <i className="fa fa-clock-o"></i> 11:00am - 9:00pm
-                          </li>
-
-                          <li>
-                            <i className="fa fa-comment"></i> 3 Comments
+                            <i className="fa fa-clock-o"></i> {event.time}
                           </li>
                         </ul>
                       </div>
                     </div>
                   </div>
 
-                  <p>
-                    Aenean leo vene quam. Pellntes ique ornare sem eius modte
-                    venenatis vestibum. Cras mattis itugir purus. Aenean le vene
-                    quam. Pellntes ique ornare seeim eiusmodte venenatis
-                    vestibum. Cras mattis citur exquisitely fari then far purus.
-                    Aenean leo vene quam. Pellntes ique ornare sem eiusmodte
-                    venen. Et tollit utamur nam, dcum ullumo etiam velit. Ne
-                    scripserit. Sea ex utamur phaedrum, nisl no, no reque
-                    sensibus duo. Meini coposae, paulo mediocrem etiam negleg
-                    enur. Vis ut argum entum lorem ipsum dolor sit amet,
-                    consectetur adipscing elit. Nulla convallis egestas rhoncus.
-                    Don eofacilisis fermentum sem, ac viverra ante lucus vel.
-                    Donec vel maurs quam. Lorem ipsum dolor sit amet, consect
-                    etur adpiscing elit. Nulla convallis egestas rhoncus. Donec
-                    facilisis ferme ntum sem, ac viverra ante luctus vel. Donec
-                    vel maus quam.Lorem ipsum dolor sit amet, consectetur
-                    dipiscing elit. Nulla convallis egestas rhoncus.{" "}
-                  </p>
+                  <p>{event.about}</p>
                 </div>
               </div>
             </div>
@@ -115,4 +107,14 @@ class EventSinglePage extends Component {
   }
 }
 
-export default EventSinglePage;
+EventSinglePage.propTypes = {
+  eventsData: PropTypes.object
+};
+
+const mapStateToProps = state => ({
+  eventsData: state.eventsData
+});
+
+const enhance = compose(connect(mapStateToProps));
+
+export default enhance(withRouter(EventSinglePage));
