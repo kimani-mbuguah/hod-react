@@ -59,7 +59,7 @@ class Responsive extends Component {
               </a>
             </li>
             <li>
-              <a href="/ministrues" title="">
+              <a href="/ministries" title="">
                 Our Ministries
               </a>
             </li>

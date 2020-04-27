@@ -34,7 +34,7 @@ class EventsPage extends Component {
             <div className="category-box">
               <div className="category-block">
                 <div className="category-img">
-                  <img src="images/resource/event1.jpg" alt="" />
+                  <img src={`images/${event.image}`} alt="" />
 
                   <ul>
                     <li className="date">
@@ -110,7 +110,7 @@ class EventsPage extends Component {
                     <div className="row">{eventsData}</div>
                   </div>
 
-                  <div className="theme-pagination">
+                  {/* <div className="theme-pagination">
                     <ul className="pagination">
                       <li>
                         <a href="#">
@@ -144,7 +144,7 @@ class EventsPage extends Component {
                         </a>
                       </li>
                     </ul>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>

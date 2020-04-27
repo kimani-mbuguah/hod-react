@@ -2,7 +2,7 @@ import { SET_MINISTRIES, SET_MINISTRY } from "./types";
 const ministriesData = [
   {
     name: "CHILDREN MINISTRY",
-    image: "",
+    image: "five.jpg",
     preview:
       "The children sanctuary has many children gathering to worship every Sunday. The service runs concurrently with the main service.",
     detail:
@@ -10,6 +10,7 @@ const ministriesData = [
   },
   {
     name: "YOUTH MINISTRY",
+    image: "four.jpg",
     preview:
       "The House of Destiny youth have been categorized in different groups as per different stages in life. This includes the high school students..",
     detail:
@@ -17,6 +18,7 @@ const ministriesData = [
   },
   {
     name: "FAMILY MINISTRY",
+    image: "seventeen.jpg",
     preview:
       "Passionate to strengthen marriages and family as a pillar in the community, the ministry organizes for events and activities such as couple’s dinners...",
     detail:
@@ -24,6 +26,7 @@ const ministriesData = [
   },
   {
     name: "MEN MINISTRY",
+    image: "twelve.jpg",
     preview:
       "The men ministry encourages good stewardship as they bring men together to undertake projects towards accomplishing set goals.",
     detail:
@@ -31,6 +34,7 @@ const ministriesData = [
   },
   {
     name: "WOMEN MINISTRY",
+    image: "eighteen.jpg",
     preview:
       "The Destiny Pearls, as the House of Destiny women are referred to, are geared towards igniting the hearts of women for Christ.",
     detail:

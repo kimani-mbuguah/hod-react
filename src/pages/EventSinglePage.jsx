@@ -26,7 +26,7 @@ class EventSinglePage extends Component {
         <div className="page-top">
           <div
             className="parallax"
-            style={{ background: "url(images/parallax1.jpg)" }}
+            style={{ background: "url(images/two.jpg)" }}
           ></div>
 
           <div className="container">
@@ -55,7 +55,7 @@ class EventSinglePage extends Component {
               <div className="row">
                 <div className="col-md-12 column">
                   <div className="single-page">
-                    <img src="images/resource/sermon-single.jpg" alt="" />
+                    <img style={{width: "100%", height: 700}} src={`images/${event.image}`} alt="" />
 
                     <div className="meta">
                       <ul>
@@ -89,12 +89,14 @@ class EventSinglePage extends Component {
                           <li>
                             <i className="fa fa-clock-o"></i> {event.time}
                           </li>
+
+                          <li>
+                            <p>{event.about}</p>
+                          </li>
                         </ul>
                       </div>
                     </div>
                   </div>
-
-                  <p>{event.about}</p>
                 </div>
               </div>
             </div>
@@ -108,11 +110,11 @@ class EventSinglePage extends Component {
 }
 
 EventSinglePage.propTypes = {
-  eventsData: PropTypes.object
+  eventsData: PropTypes.object,
 };
 
-const mapStateToProps = state => ({
-  eventsData: state.eventsData
+const mapStateToProps = (state) => ({
+  eventsData: state.eventsData,
 });
 
 const enhance = compose(connect(mapStateToProps));

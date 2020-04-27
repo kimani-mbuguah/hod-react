@@ -14,6 +14,20 @@ class SingleMinistryPage extends Component {
   }
   render() {
     const { ministry } = this.props.ministry;
+    let image;
+
+    if (ministry.name == "CHILDREN MINISTRY") {
+      image = "images/five.jpg";
+    } else if (ministry.name == "YOUTH MINISTRY") {
+      image = "images/four.jpg";
+    } else if (ministry.name == "FAMILY MINISTRY") {
+      image = "images/seventeen.jpg";
+    } else if (ministry.name == "MEN MINISTRY") {
+      image = "images/twelve.jpg";
+    } else if (ministry.name == "WOMEN MINISTRY") {
+      image = "images/eighteen.jpg";
+    }
+
     if (ministry != null) {
       return (
         <div>
@@ -22,7 +36,7 @@ class SingleMinistryPage extends Component {
           <div className="page-top">
             <div
               className="parallax"
-              style={{ background: "url(images/one.jpg)" }}
+              style={{ background: `url(${image})` }}
             ></div>
 
             <div className="container">
@@ -52,7 +66,7 @@ class SingleMinistryPage extends Component {
                   <div className="col-md-12 column">
                     <div className="service-block">
                       <div className="service-image">
-                        <img src="images/five.jpg" alt="" />
+                        <img src={`${image}`} alt="" />
 
                         <i className="fa fa-codepen"></i>
                       </div>
@@ -144,8 +158,8 @@ class SingleMinistryPage extends Component {
   }
 }
 
-const mapStateToProps = state => ({
-  ministry: state.ministriesData
+const mapStateToProps = (state) => ({
+  ministry: state.ministriesData,
 });
 
 const enhance = compose(connect(mapStateToProps));

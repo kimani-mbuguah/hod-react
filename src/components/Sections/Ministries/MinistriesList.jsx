@@ -31,10 +31,10 @@ class MinistriesList extends Component {
     if (ministries) {
       ministriesData = ministries.map((ministry, i) => {
         return (
-          <div className="col-md-4 column" key={i}>
+          <div className="col-md-6 column" key={i}>
             <div className="service-block">
               <div className="service-image">
-                <img src="images/six.jpg" alt="" />
+                <img src={`images/${ministry.image}`} alt="" />
 
                 <i className="fa fa-codepen"></i>
               </div>

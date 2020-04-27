@@ -4,7 +4,7 @@ const axios = require("axios");
 //GET EVENTS FROM BACKEND SERVER
 export const getEvents = history => dispatch => {
   axios
-    .get("http://localhost:5002/events/get")
+    .get("https://api.houseofdestiny.or.ke/events/get")
     .then(res => {
       if (res.status === 200) {
         dispatch({
@@ -21,7 +21,7 @@ export const getEvents = history => dispatch => {
 };
 
 export const viewEvent = (name, history) => dispatch => {
-  axios.get("http://localhost:5002/events/get").then(res => {
+  axios.get("https://api.houseofdestiny.or.ke/events/get").then(res => {
     dispatch({
       type: SET_EVENT,
       payload: search(name, res.data)
