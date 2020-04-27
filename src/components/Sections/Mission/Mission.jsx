@@ -58,7 +58,7 @@ class Mission extends Component {
           <div class="block blackish">
             <div
               class="parallax"
-              style={{ background: "url(images/parallax1.jpg)" }}
+              style={{ background: "url(images/two.jpg)" }}
             ></div>
             <div class="container">
               <div class="row">

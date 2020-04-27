@@ -22,7 +22,7 @@ class SingleMinistryPage extends Component {
           <div className="page-top">
             <div
               className="parallax"
-              style={{ background: "url(images/parallax1.jpg)" }}
+              style={{ background: "url(images/one.jpg)" }}
             ></div>
 
             <div className="container">
@@ -52,7 +52,7 @@ class SingleMinistryPage extends Component {
                   <div className="col-md-12 column">
                     <div className="service-block">
                       <div className="service-image">
-                        <img src="images/resource/partnerships.jpg" alt="" />
+                        <img src="images/five.jpg" alt="" />
 
                         <i className="fa fa-codepen"></i>
                       </div>

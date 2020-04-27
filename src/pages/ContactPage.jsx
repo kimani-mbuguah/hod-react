@@ -14,7 +14,7 @@ class ContactPage extends Component {
         <div className="page-top">
           <div
             className="parallax"
-            style={{ background: "url(images/parallax1.jpg)" }}
+            style={{ background: "url(images/three.jpg)" }}
           ></div>
 
           <div className="container">
@@ -65,7 +65,6 @@ class ContactPage extends Component {
               <div className="row">
                 <div className="col-md-12">
                   <div className="title2">
-                    <span>Pellent Esque Tellus</span>
                     <h2>
                       LET'S <span>GET IN TOUCH</span>
                     </h2>

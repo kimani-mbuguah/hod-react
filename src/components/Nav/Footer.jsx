@@ -8,7 +8,7 @@ class Footer extends Component {
           <div className="block blackish">
             <div
               className="parallax"
-              style={{ background: "url(images/parallax5.jpg)" }}
+              style={{ background: "url(images/one.jpg)" }}
             ></div>
 
             <div className="container">
@@ -28,7 +28,7 @@ class Footer extends Component {
                             <span>
                               <i className="fa fa-phone"></i>Phone :
                             </span>{" "}
-                            ( +254 704 000 050 )
+                            ( +254 705 000 050 )
                           </li>
 
                           <li>

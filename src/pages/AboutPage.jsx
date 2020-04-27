@@ -14,7 +14,7 @@ class AboutPage extends Component {
         <div className="page-top">
           <div
             className="parallax"
-            style={{ background: "url(images/parallax1.jpg)" }}
+            style={{ background: "url(images/two.jpg)" }}
           ></div>
 
           <div className="container">
@@ -59,11 +59,10 @@ class AboutPage extends Component {
                 <div className="col-md-6 column">
                   <div className="video">
                     <div className="video-img lightbox">
-                      <img src="images/resource/video.jpg" alt="" />
-
-                      {/* <a href="videos/vid.mp4" title="" data-poptrox="vimeo">
+                      <img src="images/six.jpg" alt="" />
+                      <a href="videos/vid.mp4" title="" data-poptrox="vimeo">
                         <i className="fa fa-play"></i>
-                      </a> */}
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -72,7 +71,7 @@ class AboutPage extends Component {
           </div>
         </section>
 
-        <section>
+        {/* <section>
           <div className="block">
             <div className="container">
               <div className="row">
@@ -198,7 +197,7 @@ class AboutPage extends Component {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <Footer />
         <FooterBottom />
       </div>

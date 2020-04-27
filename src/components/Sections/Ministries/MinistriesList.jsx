@@ -34,7 +34,7 @@ class MinistriesList extends Component {
           <div className="col-md-4 column" key={i}>
             <div className="service-block">
               <div className="service-image">
-                <img src="images/resource/partnerships.jpg" alt="" />
+                <img src="images/six.jpg" alt="" />
 
                 <i className="fa fa-codepen"></i>
               </div>

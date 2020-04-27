@@ -15,7 +15,7 @@ class ProgramsPage extends Component {
         <div className="page-top">
           <div
             className="parallax"
-            style={{ background: "url(images/parallax1.jpg)" }}
+            style={{ background: "url(images/six.jpg)" }}
           ></div>
 
           <div className="container">
@@ -49,7 +49,7 @@ class ProgramsPage extends Component {
                       <div className="row">
                         <div className="col-md-5">
                           <div className="image">
-                            <img src="images/resource/blog1.jpg" alt="" />
+                            <img src="images/one.jpg" alt="" />
                           </div>
                         </div>
 
@@ -85,7 +85,7 @@ class ProgramsPage extends Component {
                         </div>
                         <div className="col-md-5">
                           <div className="image">
-                            <img src="images/resource/blog1.jpg" alt="" />
+                            <img src="images/two.jpg" alt="" />
                           </div>
                         </div>
                       </div>
@@ -95,7 +95,7 @@ class ProgramsPage extends Component {
                       <div className="row">
                         <div className="col-md-5">
                           <div className="image">
-                            <img src="images/resource/blog2.jpg" alt="" />
+                            <img src="images/three.jpg" alt="" />
                           </div>
                         </div>
 
@@ -134,30 +134,7 @@ class ProgramsPage extends Component {
 
                         <div className="col-md-5">
                           <div className="image">
-                            <img src="images/resource/blog1.jpg" alt="" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="blog-post">
-                      <div className="row">
-                        <div className="col-md-5">
-                          <div className="image">
-                            <img src="images/resource/blog4.jpg" alt="" />
-                          </div>
-                        </div>
-
-                        <div className="col-md-7">
-                          <div className="blog-detail">
-                            <h3>SAMPLE HEADING</h3>
-
-                            <p>
-                              Aenen leo vene quam. Pellntes quie venenatis
-                              vestib citur onecs.Suspendisse velit ante, aliquet
-                              vel adipi cing auctor, tincidunt a diam. Lorem
-                              ipsum dolor sit .
-                            </p>
+                            <img src="images/four.jpg" alt="" />
                           </div>
                         </div>
                       </div>

@@ -15,7 +15,7 @@ class Ministries extends Component {
         <div className="page-top">
           <div
             className="parallax"
-            style={{ background: "url(images/parallax1.jpg)" }}
+            style={{ background: "url(images/two.jpg)" }}
           ></div>
 
           <div className="container">

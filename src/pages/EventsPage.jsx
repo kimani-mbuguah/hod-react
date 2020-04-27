@@ -38,13 +38,13 @@ class EventsPage extends Component {
 
                   <ul>
                     <li className="date">
-                      <a href="event-single.html" title="">
+                      <a href="#" title="">
                         <i className="fa fa-calendar-o"></i> {event.date}
                       </a>
                     </li>
 
                     <li className="time">
-                      <a href="event-single.html" title="">
+                      <a href="#" title="">
                         <i className="fa fa-clock-o"></i> {event.time}
                       </a>
                     </li>

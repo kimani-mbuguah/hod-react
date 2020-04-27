@@ -13,7 +13,7 @@ class Slider extends Component {
                 data-masterspeed="3000"
               >
                 <img
-                  src="images/resource/slide10.jpg"
+                  src="images/six.jpg"
                   alt="slidebg1"
                   className="rev-slidebg"
                   data-bgposition="center center"
@@ -72,7 +72,7 @@ class Slider extends Component {
                 data-masterspeed="3000"
               >
                 <img
-                  src="images/resource/slide11.jpg"
+                  src="images/one.jpg"
                   alt="slidebg2"
                   className="rev-slidebg"
                   data-bgposition="center center"
@@ -154,7 +154,7 @@ class Slider extends Component {
                 data-masterspeed="3000"
               >
                 <img
-                  src="images/resource/slide12.jpg"
+                  src="images/two.jpg"
                   alt="slidebg3"
                   className="rev-slidebg"
                   data-bgposition="center center"
