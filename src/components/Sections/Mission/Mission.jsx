@@ -5,30 +5,30 @@ class Mission extends Component {
     return (
       <div>
         <section>
-          <div class="block whitish">
+          <div className="block whitish">
             <div
-              class="parallax"
+              className="parallax"
               style={{
-                background: "url(images/resource/next-steps-header-bg.jpg);"
+                background: "url(images/resource/next-steps-header-bg.jpg)"
               }}
             ></div>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 column">
-                  <div class="welcome">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12 column">
+                  <div className="welcome">
                     <h3>
-                      <i class="fa fa-church"></i>OUR MISSION
+                      <i className="fa fa-church"></i>OUR MISSION
                     </h3>
                     <p>Connecting People To Their DESTINY in CHRIST</p>
                   </div>
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-md-12 column">
-                  <div class="welcome">
+              <div className="row">
+                <div className="col-md-12 column">
+                  <div className="welcome">
                     <h3>
-                      <i class="fa fa-church"></i>OUR VISION
+                      <i className="fa fa-church"></i>OUR VISION
                     </h3>
                     <p>
                       Relevant Relentless Church That Worship CHRIST In SPIRIT
@@ -38,11 +38,11 @@ class Mission extends Component {
                 </div>
               </div>
 
-              <div class="row">
-                <div class="col-md-12 column">
-                  <div class="welcome">
+              <div className="row">
+                <div className="col-md-12 column">
+                  <div className="welcome">
                     <h3>
-                      <i class="fa fa-church"></i>OUR CORE VALUES
+                      <i className="fa fa-church"></i>OUR CORE VALUES
                     </h3>
                     <p>
                       People Centered<br></br>Teamwork<br></br>Transparency
@@ -55,16 +55,16 @@ class Mission extends Component {
           </div>
         </section>
         <section>
-          <div class="block blackish">
+          <div className="block blackish">
             <div
-              class="parallax"
+              className="parallax"
               style={{ background: "url(images/two.jpg)" }}
             ></div>
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12">
-                  <div class="parallax-title">
-                    <h3 class="special-text">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12">
+                  <div className="parallax-title">
+                    <h3 className="special-text">
                       REACH <span>OUT</span>
                     </h3>
                     <p>
@@ -72,7 +72,7 @@ class Mission extends Component {
                       Team is here for you.
                     </p>
                   </div>
-                  <div class="prayer-request">
+                  <div className="prayer-request">
                     <a href="mailto:hello@houseofdestiny.or.ke">
                       <input type="submit" value="Request Prayers" />
                     </a>

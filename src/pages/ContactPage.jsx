@@ -1,14 +1,73 @@
 import React, { Component } from "react";
 
+import PropTypes from "prop-types";
+import { connect } from "react-redux";
+import compose from "recompose/compose";
+import { withRouter } from "react-router-dom";
+
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+
+import { sendEmail } from "../actions/emailActions";
+
 import Header from "../components/Nav/Header";
 import Responsive from "../components/Nav/Responsive";
 import Footer from "../components/Nav/Footer";
 import FooterBottom from "../components/Nav/FooterBottom";
 
 class ContactPage extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: "",
+      email: "",
+      comments: "",
+    };
+
+    this.onChange = this.onChange.bind(this);
+    this.onSubmit = this.onSubmit.bind(this);
+  }
+
+  onChange(e) {
+    this.setState({ [e.target.name]: e.target.value });
+  }
+
+  onSubmit(e) {
+    e.preventDefault();
+
+    if (
+      this.state.name === "" ||
+      this.state.comments === "" ||
+      this.state.email === ""
+    ) {
+      toast.error("Pleas fill all fields !", {
+        position: toast.POSITION.TOP_CENTER,
+      });
+    } else {
+      const emailData = {
+        email: this.state.email,
+        name: this.state.name,
+        comments: this.state.comments,
+      };
+
+      this.props.sendEmail(emailData).then((success) => {
+        this.setState({
+          name: "",
+          email: "",
+          comments: "",
+        });
+
+        toast.success("Message Sent !", {
+          position: toast.POSITION.TOP_CENTER,
+        });
+      });
+    }
+  }
+
   render() {
     return (
       <div>
+        <ToastContainer />
         <Header />
         <Responsive />
         <div className="page-top">
@@ -114,37 +173,36 @@ class ContactPage extends Component {
                       <h4>FILL IN THE FORM BELOW</h4>
                       <div className="space"></div>
                       <div id="message"></div>
-                      <form
-                        className="theme-form"
-                        method="post"
-                        action="contact.php"
-                        name="contactform"
-                        id="contactform"
-                      >
+                      <form onSubmit={this.onSubmit} className="theme-form">
                         <input
                           name="name"
                           className="half-field form-control"
                           type="text"
                           id="name"
+                          value={this.state.name}
+                          onChange={this.onChange}
                           placeholder="Name"
                         />
+
                         <input
                           name="email"
                           className="half-field form-control"
                           type="text"
+                          value={this.state.email}
+                          onChange={this.onChange}
                           id="email"
                           placeholder="Email"
                         />
+
                         <textarea
                           name="comments"
                           className="form-control"
                           id="comments"
+                          value={this.state.comments}
+                          onChange={this.onChange}
                           placeholder="Description"
                         ></textarea>
-                        <div
-                          className="g-recaptcha"
-                          data-sitekey="6LelmzAUAAAAAHBE2SJeRMfnzYVxH9RMGQstUij2"
-                        ></div>
+
                         <input
                           className="submit"
                           type="submit"
@@ -204,4 +262,12 @@ class ContactPage extends Component {
   }
 }
 
-export default ContactPage;
+ContactPage.propTypes = {
+  sendEmail: PropTypes.func,
+};
+
+const mapStateToProps = (state) => ({});
+
+const enhance = compose(connect(mapStateToProps, { sendEmail }));
+
+export default enhance(withRouter(ContactPage));

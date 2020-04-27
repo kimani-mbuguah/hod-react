@@ -10,6 +10,7 @@ import EventSingePage from "./pages/EventSinglePage";
 import GalleryPage from "./pages/GalleryPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
+import LivePage from "./pages/LivePage";
 
 class App extends Component {
   render() {
@@ -24,6 +25,7 @@ class App extends Component {
         <Route exact path="/gallery" component={GalleryPage} />
         <Route exact path="/about" component={AboutPage} />
         <Route exact path="/contact" component={ContactPage} />
+        <Route exact path="/online" component={LivePage} />
       </div>
     );
   }

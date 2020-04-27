@@ -60,7 +60,8 @@ class AboutPage extends Component {
                   <div className="video">
                     <div className="video-img lightbox">
                       <img src="images/six.jpg" alt="" />
-                      <a href="videos/vid.mp4" title="" data-poptrox="vimeo">
+                      
+                      <a href="https://www.youtube.com/embed/4s39lmJ_cOg" title="" data-poptrox="vimeo">
                         <i className="fa fa-play"></i>
                       </a>
                     </div>
