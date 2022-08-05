@@ -7,13 +7,13 @@ class FooterBottom extends Component {
         <div className="bottom-footer">
           <div className="container">
             <p>
-              ©2020{" "}
+              ©2022{" "}
               <a href="https://houseofdestiny.or.ke" title="">
                 The House Of Destiny
               </a>{" "}
               || Designed and Developed by{" "}
-              <a href="https://iamkim.me" title="">
-                Kim
+              <a href="https://iguanya.comy" title="">
+                Iguanya
               </a>
             </p>
           </div>

@@ -26,23 +26,10 @@ class Header extends Component {
               </p>
 
               <ul className="social-media">
+              
+              
                 <li>
-                  <a title="" href="#">
-                    <i className="fa fa-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a title="" href="#">
-                    <i className="fa fa-google-plus"></i>
-                  </a>
-                </li>
-                <li>
-                  <a title="" href="#">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a title="" href="#">
+                  <a title="" href="https://web.facebook.com/pages/category/Religious-organization/The-House-of-Destiny-Ministries-Kerugoya-709596639109960/?_rdc=1&_rdr">
                     <i className="fa fa-facebook"></i>
                   </a>
                 </li>

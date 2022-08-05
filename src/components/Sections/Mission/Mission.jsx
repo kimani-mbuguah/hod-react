@@ -72,11 +72,11 @@ class Mission extends Component {
                       Team is here for you.
                     </p>
                   </div>
+                  <a href="mailto:hello@houseofdestiny.or.ke">
                   <div className="prayer-request">
-                    <a href="mailto:hello@houseofdestiny.or.ke">
-                      <input type="submit" value="Request Prayers" />
-                    </a>
+                      <input type="submit" value="Reach Out" />
                   </div>
+                  </a>
                 </div>
               </div>
             </div>

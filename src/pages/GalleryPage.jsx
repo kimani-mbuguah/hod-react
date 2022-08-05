@@ -49,17 +49,10 @@ class GalleryPage extends Component {
                         <div className="col-md-3">
                           <div className="gallery lightbox">
                             <img src="images/one.jpg" alt="" />
-
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
-
                             <ul>
                               <li>
                                 <a href="images/one.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -70,16 +63,11 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/two.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
-
+            
                             <ul>
                               <li>
                                 <a href="images/two.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -90,16 +78,11 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/three.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
-
+                            
                             <ul>
                               <li>
                                 <a href="images/three.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -110,16 +93,12 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/four.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
+                          
 
                             <ul>
                               <li>
                                 <a href="images/four" title="">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -139,16 +118,12 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/five.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
+                          
 
                             <ul>
                               <li>
                                 <a href="images/five.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -159,16 +134,11 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/eight.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
-
+                           
                             <ul>
                               <li>
                                 <a href="images/eight.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -179,16 +149,11 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/nine.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
-
+                            
                             <ul>
                               <li>
                                 <a href="images/nine.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -199,16 +164,12 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/ten.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
+                           
 
                             <ul>
                               <li>
                                 <a href="images/ten.jpg" title="">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -225,16 +186,12 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/eleven.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
+                           
 
                             <ul>
                               <li>
                                 <a href="images/eleven.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -245,16 +202,11 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/twelve.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
 
                             <ul>
                               <li>
                                 <a href="images/twelve.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -265,16 +217,11 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/thirteen.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
 
                             <ul>
                               <li>
                                 <a href="images/thirteen.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -285,16 +232,11 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/fourteen.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
-
+                           
                             <ul>
                               <li>
                                 <a href="images/fourteen.jpg" title="">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -312,16 +254,12 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/15.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
+                           
 
                             <ul>
                               <li>
                                 <a href="images/15.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -332,16 +270,12 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/sixteen.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
+                           
 
                             <ul>
                               <li>
                                 <a href="images/sixteen.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -352,16 +286,11 @@ class GalleryPage extends Component {
                           <div className="gallery lightbox">
                             <img src="images/seventeen.jpg" alt="" />
 
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
-
+                           
                             <ul>
                               <li>
                                 <a href="images/seventeen.jpg" title="HOD">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>
@@ -371,17 +300,10 @@ class GalleryPage extends Component {
                         <div className="col-md-3">
                           <div className="gallery lightbox">
                             <img src="images/eighteen.jpg" alt="" />
-
-                            <div className="gallery-title">
-                              <i className="fa fa-picture-o"></i>
-
-                              <h3>H.O.D</h3>
-                            </div>
-
                             <ul>
                               <li>
                                 <a href="images/eighteen.jpg" title="">
-                                  <img src="images/logo.png" alt="" />
+                                  <img src="images/logo.png" title="House of Destiny" alt="" />
                                 </a>
                               </li>
                             </ul>

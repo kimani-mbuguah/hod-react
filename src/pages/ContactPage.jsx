@@ -146,28 +146,7 @@ class ContactPage extends Component {
                         department for a response. Thank you for contacting us!
                       </p>
                       <div className="space"></div>
-                      <ul className="social-media">
-                        <li>
-                          <a href="#" title="">
-                            <i className="fa fa-linkedin"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" title="">
-                            <i className="fa fa-google-plus"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" title="">
-                            <i className="fa fa-twitter"></i>
-                          </a>
-                        </li>
-                        <li>
-                          <a href="#" title="">
-                            <i className="fa fa-facebook"></i>
-                          </a>
-                        </li>
-                      </ul>
+                      
                     </div>
                     <div className="col-md-6 column">
                       <h4>FILL IN THE FORM BELOW</h4>
@@ -233,7 +212,7 @@ class ContactPage extends Component {
                     <div className="col-md-3">
                       <div className="info-block">
                         <i className="fa fa-info"></i>
-                        <p>http://www.houseofdestiny.or.ke</p>
+                        <p>https://houseofdestiny.or.ke</p>
                       </div>
                     </div>
                     <div className="col-md-3">

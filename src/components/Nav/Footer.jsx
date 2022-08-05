@@ -35,7 +35,7 @@ class Footer extends Component {
       this.state.comments === "" ||
       this.state.email === ""
     ) {
-      toast.error("Pleas fill all fields !", {
+      toast.error("Please fill all fields !", {
         position: toast.POSITION.TOP_CENTER,
       });
     } else {
